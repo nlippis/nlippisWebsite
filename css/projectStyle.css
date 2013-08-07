@@ -1,0 +1,165 @@
+/*
+ ******************
+ * =Project Section
+ ******************
+*/
+
+.mainContentSection article {
+	margin: 0px;
+	padding: 50px 50px 50px 60px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+/*
+ ******************
+ * =Project Graphic
+ ******************
+*/
+
+.Graphic {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+}
+
+.Graphic p {
+	padding-top: 10px;
+	font-size: 80px;
+}
+
+/*
+ ******************
+ * =Project Info
+ ******************
+*/
+
+.info {
+
+}
+
+.info h6 {
+	padding-top: 10px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.info nav ul {
+	padding-left: 10px;
+}
+
+.info nav ul li a {
+	font-size: 13px;
+}
+
+.info nav ul li a i {
+	padding-right: 5px;
+}
+
+/*
+ ******************
+ * =Project Description
+ ******************
+*/
+
+.description {
+	margin-left: 30px;
+}
+
+.description h4 {
+	margin: 0;
+	padding-bottom: 10px;
+	letter-spacing: 0px;
+}
+
+.description p {
+	padding-left: 20px;
+}
+
+/*
+ ******************
+ * =Pitch
+ ******************
+*/
+
+#pitch {
+	background-color: #e63a40;
+}
+
+#pitch p {
+	font-family: 'Damion', cursive;
+	color: white;
+}
+
+/*
+ ******************
+ * =Photoshare
+ ******************
+*/
+
+#photoshare {
+	background-color: #F1C40F;
+}
+
+#photoshare p {
+	padding-top: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	line-height: 30px;
+	color: white;
+}
+
+/*
+ ******************
+ * =Graphic Equalizer
+ ******************
+*/
+
+#graphicEqualizer {
+	/*background-color: #EC17F0;*/
+	/*background-color: #9B59B6;*/
+	background-color: #8E44AD;
+}
+
+#graphicEqualizer p {
+	padding-top: 28px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 58px;
+	color: white;
+}
+
+/*
+ ******************
+ * =Basic MIPS
+ ******************
+*/
+
+#basicMips {
+	/*background-color: #57A9FA;*/
+	background-color: #3498DB;
+}
+
+#basicMips p {
+	padding-top: 38px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 52px;
+	letter-spacing: -2px;
+	color: white;
+}
+
+/*
+ ******************
+ * =FPGA RPS
+ ******************
+*/
+
+#fpgaRps {
+	background-color: #1ABC9C;
+}
+
+#fpgaRps p {
+	padding-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}

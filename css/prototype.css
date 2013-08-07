@@ -1,0 +1,13 @@
+div {
+	overflow: hidden;
+}
+
+div i {
+	float: left;
+}
+
+div h2 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	padding-left: 70px;
+}

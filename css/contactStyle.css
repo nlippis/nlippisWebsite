@@ -1,0 +1,51 @@
+/*
+ ******************
+ * =Contact Div Styling
+ ******************
+*/
+
+.mainContentSection article {
+	margin: 0 5% 0 5%;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px solid #d1d1d1;
+	color: black;
+}
+
+.mainContentSection article:hover {
+	color: #333333;
+}
+
+.mainContentSection article h1 {
+	font-family: Helvetica, sans-serif;
+	margin: auto;
+	padding-top: 18px;
+	padding-bottom: 10px;
+}
+
+.mainContentSection article p {
+	margin: auto;
+}
+
+.mainContentSection article i {
+	margin: auto;
+}
+
+.description {
+	margin-top: 40px;
+	/*margin-left: 5%;*/
+	text-align: center;
+}
+
+/*
+ ******************
+ * =Contact Icon Styling
+ ******************
+*/
+
+.icon {
+	text-align: center;
+}
+
+.iconBig {
+	font-size: 15em;
+}
