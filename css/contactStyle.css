@@ -32,7 +32,6 @@
 
 .description {
 	margin-top: 40px;
-	/*margin-left: 5%;*/
 	text-align: center;
 }
 
@@ -48,4 +47,49 @@
 
 .iconBig {
 	font-size: 15em;
+}
+
+/*
+ ******************
+ * =Modal Dialog Email
+ ******************
+*/
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: white;
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 50%;
+	min-width: 390px;
+	position: relative;
+	margin: 20% auto;
+	padding: 5px 12px 15px 20px;
+	background: white;
+	border: 1px solid #d1d1d1;
+}
+
+.modalDialog > div i {
+	padding-right: 10px;
+}
+
+.close {
+	padding-top: 5px;
+	font-weight: lighter;
 }
