@@ -76,20 +76,71 @@
 }
 
 .modalDialog > div {
-	width: 50%;
+	width: 45%;
 	min-width: 390px;
 	position: relative;
-	margin: 20% auto;
+	margin: 15% auto;
 	padding: 5px 12px 15px 20px;
 	background: white;
-	border: 1px solid #d1d1d1;
+	border: 1px solid black;
 }
 
 .modalDialog > div i {
 	padding-right: 10px;
 }
 
+label {
+	font-family: Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+
+form {
+	padding-top: 8px;
+	padding-left: 15px;
+}
+
+form input {
+	margin-bottom: 10px;
+	display: block;
+	font-family: Helvetica, sans-serif;
+	border: 1px solid #999999;
+	outline: none;
+}
+
+form input:focus {
+	border: 1.5px solid #3498DB;
+}
+
+#message {
+	padding: 2px 50% 30% 2px;
+
+}
+
+input[type="submit"] {
+	font-weight: lighter;
+	margin: auto;
+	width: 20%;
+	color: black;
+	letter-spacing: 2px;
+	/*border-radius: 5px;
+	background: #2ECC71;
+	border: none;*/
+	background: white;
+	border: 1px solid #2ECC71;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #16A085;
+	/*background: #27AE60;*/
+}
+
 .close {
 	padding-top: 5px;
 	font-weight: lighter;
+	color: red;
+}
+
+.close:hover {
+	color: red;
 }
