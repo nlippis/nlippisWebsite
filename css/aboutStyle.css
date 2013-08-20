@@ -1,0 +1,33 @@
+/*
+ ******************
+ * =Main Content
+ ******************
+*/
+
+.mainContent {
+	padding: 0px 80px;
+}
+
+#hello {
+	padding-right: 20px;
+	font-family: 'Damion', cursive;
+	font-size: 100px;
+}
+
+.story {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.head i {
+	display: inline-block;
+}
+.head p {
+	display: inline-block;
+}
+
+.head p:before {
+	content: ' - ';
+}
