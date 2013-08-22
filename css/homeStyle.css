@@ -4,15 +4,19 @@
  ******************
 */
 
-.mainContent .col-lg-8 {
-	padding-right: 0px;
+.mainContent {
 }
 
-.mainContent .col-lg-4 {
+#soundcloud {
+	padding: 0px;
+}
+
+#twitter {
 	padding: 0px;
 }
 
 .twitter-tweet {
 	padding-top: 18px;
-	margin: 0;
+	/*margin: 0;*/
+	border: none;
 }
